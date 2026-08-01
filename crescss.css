@@ -1,7 +1,6 @@
-
 :root {
 --acc1: #868686!important;
---acc2:#643d3e;
+--acc2:#4f3922;
 --acc3:#fff;
 --white: #fff;
 --black: #000;
@@ -18,17 +17,17 @@
 --gr4: #74ABB6;
 --gr5: #D7A329;
 --fondb: #121111;
---bodyline: #262525;
+--bodyline: #1c1c1c;
 --cadree: #212121;
 --titre2: #999797;
 --titre2pa: #999797;
---annonces: #643d3e;
+--annonces: #4f3922;
 --blocann: #0f0f0f;
 --colortextgen: #999797 !important;
 --bordertxt: 1px solid #736B6A;
 --bordertxt2: 2px solid #502d25;
 --borderforum: 1px #242424;
---ital4: #502d25;
+--ital4: #8d7856;
 --titrefow: #bcbcbc;
 --titlefow1: #8a8080;
 --titlefow2: #685e72;
@@ -37,12 +36,12 @@
 --switchtxt: #c0aaac;
 --color-text: #6e4331;
 --color-bg: #;
-  --color-delete: #643d3e; /**cercle croix suppr**/
+  --color-delete: #4f3922; /**cercle croix suppr**/
   --color-tooltip: #322e2d; /**case nom**/
   --color-squircle: #322e2d; /**cercle ajouter**/
-  --color-accent: #643d3e;
-  --color-button:#643d3e; /**croix pour ajouter**/
-  --color-pill: #643d3e; /**rond à coté perso actif**/
+  --color-accent: #4f3922;
+  --color-button:#4f3922; /**croix pour ajouter**/
+  --color-pill: #4f3922; /**rond à coté perso actif**/
 --gap-size: 16px;
 --ease: cubic-bezier(0.4,0.0,0.2,1);
 --ease-bounce: cubic-bezier(0.43,0.09,0.38,2.56);
@@ -51,7 +50,7 @@
 --bordsujet: #4c4c4c;
 --fonddiv: #303030;
 --infimp: #4e3656;
-  --it4: #643d3e;
+  --it4: #594128;
 }
 /***********Switch personnage**********/
 .switcheroo {color: var(--color-text) background-color: var(--color-bg); font-size: 16px;}
@@ -109,7 +108,7 @@
 /********************bouton like****************/
 .fa_liked { color: #6e4331 !important;}
 .rep-nb {padding-left: 4px; display: inline-block;line-height: 9px; color: #6e4331 !important;}
-.rep-button, .rep-button:active {cursor: pointer; position: relative; float: left; background: #262525; border: 0px;box-shadow: 0 0 0 #b9b9b9 inset; color: #643d3e !important; font-size: 15.4px; padding: 1px 4px;line-height: 1; border-radius: 0px; margin-right: 3px; font-weight: 700; margin-top: 3px; margin-bottom: 6px; font-family: 'bigmoore', serif;
+.rep-button, .rep-button:active {cursor: pointer; position: relative; float: left; background: #1c1c1c; border: 0px;box-shadow: 0 0 0 #b9b9b9 inset; color: #4f3922!important; font-size: 15.4px; padding: 1px 4px;line-height: 1; border-radius: 0px; margin-right: 3px; font-weight: 700; margin-top: 3px; margin-bottom: 6px; font-family: 'bigmoore', serif;
 text-transform: lowercase;}
 #chatbox .chatbox-message-username {font-weight: 400; font-family: arial;}
 span.chatbox-username chatbox-message-username {font-weight: 400; font-family: arial;}
@@ -117,20 +116,23 @@ span.user {font-weight: bold; font-family: arial;}
 /******************** ajout PA****************/
 .txtpa {font-weight: 700; font-style: italic;
 font-size:10px; letter-spacing: 3px;
-text-transform: uppercase; background:#643d3e; box-shadow: 0 0 1px #3c5f73,0 0 10px #643d3e inset; padding-left:5px; color: #a4a4a4;}
+text-transform: uppercase; background: #4f3922; box-shadow: 0 0 1px #4f3922, 0 0 10px #4f3922 inset; padding-left:5px; color: #8a8080;}
+
 
 .imagepa{width : 40px; height : 299px; object-fit: cover; padding-right:5px }
-.pacase {display: flex; gap: 3px; align-items: left; justify-content: space-between; padding: 10px; display: flex; margin-bottom: 5px; color: #8a8080 ; width: 277px; padding: 5px; overflow: auto; background: #262525; position: absolute; text-align:justify; line-height: 1.1em; height:299px;}
+.pacase {display: flex; gap: 3px; align-items: left; justify-content: space-between; padding: 10px; display: flex; margin-bottom: 5px; color: #8a8080 ; width: 277px; padding: 5px; overflow: auto; background: #1c1c1c; position: absolute; text-align:justify; line-height: 1.1em; height:299px;}
 .bloccontexte {width:300px; color: var(--colortextgen);
 font-family: arial;
 font-size: 14px;
 line-height: 1em;}
 
+
 .nomstaff {font-size: 9px; text-transform: uppercase; letter-spacing: 1px; padding: 2px; width: 50px !important;
-background-color: #121111; box-shadow: 0 0 1px #201f1f, 0 0 7px #141313 inset; color:#643d3e!important; font-style: italic; display: inline-block; font-weight: 700;}
+background-color: #121111; box-shadow: 0 0 1px #201f1f, 0 0 7px #141313 inset; color:#aa9d7e!important; font-style: italic; display: inline-block; font-weight: 700;}
+
 
 .nomstaff1 {font-size: 9px; text-transform: uppercase; letter-spacing: 1px; padding: 2px; width: 111px !important;
-background-color: #121111; box-shadow: 0 0 1px #201f1f, 0 0 7px #141313 inset; color:#643d3e !important; display: inline-block; font-weight: 700; font-style: italic;}
+background-color: #121111; box-shadow: 0 0 1px #201f1f, 0 0 7px #141313 inset; color:#aa9d7e !important; display: inline-block; font-weight: 700; font-style: italic;}
 .imgScenarpa3{width: 111px; height: 43px; object-fit: cover; float: none; opacity: .8; background: var(--fondb); border: 1px solid #54573b;padding: 1px;
 -webkit-filter: blur(0px) saturate(1.6) contrast(1.6) invert(0.1) sepia(0) grayscale(1) brightness(0.9) hue-rotate(0deg);}
 /******************** ajout qeel****************/
@@ -145,6 +147,7 @@ text-transform: uppercase; background: #6e4331; box-shadow: 0 0 1px #000000, 0 0
 -webkit-filter: blur(0px) saturate(1.6) contrast(1.6) invert(0.1) sepia(80) grayscale(1) brightness(0.9) hue-rotate(0deg);}
 .pvcase3 {height: 24px; justify-content: space-between; gap: 3px; background-color:#121111; display: flex;
 align-items: center; margin-bottom: 5px; color: #8a8080 ;}
+
 
 nom3 { display: inline-block; margin: 3px 0px; padding: 2px 0; text-transform: uppercase; font-size: 10px; text-align: center;
 letter-spacing: 4px; background-size: 200%; line-height: 12px; font-style: italic;}
@@ -201,7 +204,7 @@ text-transform: uppercase;
 .pagination a, .pagination span {font-size:12px;}
 .pagination a { padding: 0 10px 0;}
 .pagination a strong {font-weight:500;}
-.pagination b { background: #643d3e;
+.pagination b { background: #4f3922;
 margin: 0 8px 0 0;
 padding: 0 5px;
 border: none;
@@ -245,7 +248,8 @@ border-radius: 0px;}
 .af_suj3 { width: 9%;
 margin: 0 7px 0 0}
 
-.suj_stat1 {background-color: #643d3e;
+
+.suj_stat1 {background-color: #4f3922;
 border-radius: 0px;
 display: flex;
 height: 25px;
@@ -254,9 +258,10 @@ align-items: center;
 font-size: 10px;
 font-weight: 700;
 color: var(--colortextgen);
-box-shadow: 0 0 1px #643d3e, 0 0 10px #643d3e inset;}
+box-shadow: 0 0 1px #4f3922, 0 0 10px #4f3922 inset;}
 
-.suj_stat {background-color: #736B6A;
+
+.suj_stat {background-color: #aa9d7e;
 border-radius: 0px;
 display: flex;
 height: 25px;
@@ -264,8 +269,8 @@ justify-content: center;
 align-items: center;
 font-size: 10px;
 font-weight: 700;
-color: #121111;
-box-shadow: 0 0 1px #3c5f73,0 0 10px #736B6A inset;
+color: #4f3922;
+box-shadow: 0 0 1px #aa9d7e,0 0 10px #aa9d7e inset;
 }
 .suj_stat1:nth-child(1) {
 margin:0 0 4px;
@@ -306,12 +311,14 @@ width: 50%;
 text-align: right;
 }
 
+
 .suj_pagination a { font-size: 11px;
-background: #643d3e;
+background:#4f3922;
 padding: 0 9px;
 border-radius: 4px;
 margin: 0 3px 0 0;
-box-shadow: 0 0 1px #643d3e, 0 0 10px #643d3e inset;}
+box-shadow: 0 0 1px #4f3922, 0 0 10px #4f3922 inset;}
+
 
 .suj_pagination br, .suj_pagination img {display:none!important;}
 .suj_pagination .gensmall {font-size:0px!important;}
@@ -322,7 +329,7 @@ font-size: 12px;}
 /*partie avatar dernier posteur*/
 .af_suj6 { height: 58px;
 width: 35px;
-border: 2px solid #643d3e;
+border: 2px solid #4f3922;
 border-radius: 0px;
 margin: auto 7px;}
 .af_suj6 img {width: 35px;
@@ -360,8 +367,3 @@ li.row:hover {
 background-color: var(--background2);
 }
 fieldset {border:none;}
-
-.imageprez{width : 70px; height : 70px;}
-.partpreza {display:flex;gap:3px;align-items:left;justify-content:start; background-color: var(--bodyline);
-    padding: 10px;}
-
