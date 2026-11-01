@@ -1,57 +1,42 @@
-:root {
---acc1: #868686!important;
---acc2:#4f3922;
---acc3:#fff;
---white: #fff;
---black: #000;
---border: #ededed;
---border1: 1px solid #ededed;
---background1: #0f0f0f;
---background2: #201f1f;
---background3: #000000;
---degrade: linear-gradient(-45deg,#ccc9c7,#DD9F8C)!important;
---degrag: #ccc9c7;
---gr1: #000;
---gr2: #DD9F8C;
---gr3:#6CB29F;
---gr4: #74ABB6;
---gr5: #D7A329;
---fondb: #121111;
---bodyline: #1c1c1c;
+:root{
+--fondb: #121111; /*correspond au fond du forum*/
+--bodyline: #1c1c1c; /*correspond partie intérieur*/
 --cadree: #212121;
---titre2: #999797;
---titre2pa: #999797;
---annonces: #4f3922;
---blocann: #0f0f0f;
---colortextgen: #999797 !important;
---bordertxt: 1px solid #736B6A;
---bordertxt2: 2px solid #502d25;
---borderforum: 1px #242424;
---ital4: #8d7856;
---titrefow: #bcbcbc;
---titlefow1: #8a8080;
---titlefow2: #685e72;
---slide: llinear-gradient(#0f0f0f, #a38380, #0f0f0f);
---slider: #8a8080;
---switchtxt: #c0aaac;
---color-text: #6e4331;
---color-bg: #;
-  --color-delete: #4f3922; /**cercle croix suppr**/
-  --color-tooltip: #322e2d; /**case nom**/
-  --color-squircle: #322e2d; /**cercle ajouter**/
-  --color-accent: #4f3922;
-  --color-button:#4f3922; /**croix pour ajouter**/
-  --color-pill: #4f3922; /**rond à coté perso actif**/
---gap-size: 16px;
---ease: cubic-bezier(0.4,0.0,0.2,1);
---ease-bounce: cubic-bezier(0.43,0.09,0.38,2.56);
---ilogo: url(https://images2.imgbox.com/6f/2f/BaQPNEEU_o.png);
---fonditem: #fff;
+--titre2:#999797;
+--titre2pa:#999797;
+--annonces: #121111;
+--blocann: #262626;
+--bqeelim: url('hhttps://2img.net/i.imgur.com/QdXW1Lh.png');
+--catimg: url('https://2img.net/i.imgur.com/QdXW1Lh.png');
+--colortextgen: #999797!important;
+--bordertxt: 1px solid #594128;
+--bordertxt2: 2px solid #594128;
+--borderforum: 1px #242424; solid;
+--ilogo :url('https://images2.imgbox.com/6f/2f/BaQPNEEU_o.png');
+--fonditem: #ffffff;
 --bordsujet: #4c4c4c;
+--gifpa:url('https://images2.imgbox.com/75/0c/2iuMvrLa_o.gif');
 --fonddiv: #303030;
---infimp: #4e3656;
-  --it4: #594128;
-}
+--titrefow:  #bcbcbc;
+--titlefow1 :#8a8080;
+--titlefow2 :#685e72;
+    --it4: #802d2d;
+--ital4: #802d2d;
+--infimp: #852323;  
+/***switcheroo**/;
+--slide: llinear-gradient(#322e2d,#a38380,#322e2d);
+ --slider:#8a8080;
+--switchtxt: #c0aaac;
+ --color-text: #6e4331;
+  --color-bg: #;
+  --gap-size: 16px;
+  --ease: cubic-bezier(0.4, 0.0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.43, 0.09, 0.38, 2.56);
+  --color-pill:#164d5a;
+  --color-button:#164d5a;
+    --color-accent:#164d5a;
+--color-delete:#164d5a;
+}  
 /***********Switch personnage**********/
 .switcheroo {color: var(--color-text) background-color: var(--color-bg); font-size: 16px;}
 .switcheroo[position="static"] {position: relative;}
@@ -116,7 +101,7 @@ span.user {font-weight: bold; font-family: arial;}
 /******************** ajout PA****************/
 .txtpa {font-weight: 700; font-style: italic;
 font-size:10px; letter-spacing: 3px;
-text-transform: uppercase; background: #4f3922; box-shadow: 0 0 1px #4f3922, 0 0 10px #4f3922 inset; padding-left:5px; color: #8a8080;}
+text-transform: uppercase; background: #164d5a; box-shadow: 0 0 1px #164d5a, 0 0 10px #164d5a inset; padding-left:5px; color: #8a8080;}
 
 
 .imagepa{width : 40px; height : 299px; object-fit: cover; padding-right:5px }
