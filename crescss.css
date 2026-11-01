@@ -314,7 +314,8 @@ font-size: 12px;}
 /*partie avatar dernier posteur*/
 .af_suj6 { height: 58px;
 width: 35px;
-border: 2px solid #4f3922;
+border: 2px solid #594128;
+border-image: linear-gradient(135deg, #164d5a, #852323) 1;
 border-radius: 0px;
 margin: auto 7px;}
 .af_suj6 img {width: 35px;
