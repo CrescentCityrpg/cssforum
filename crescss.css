@@ -298,11 +298,11 @@ text-align: right;
 
 
 .suj_pagination a { font-size: 11px;
-background:#4f3922;
+background:#164d5a;
 padding: 0 9px;
 border-radius: 4px;
 margin: 0 3px 0 0;
-box-shadow: 0 0 1px #4f3922, 0 0 10px #4f3922 inset;}
+box-shadow: 0 0 1px #164d5a, 0 0 10px #164d5a inset;}
 
 
 .suj_pagination br, .suj_pagination img {display:none!important;}
