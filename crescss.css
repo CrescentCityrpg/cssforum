@@ -24,7 +24,7 @@
 --ital4: #802d2d;
 --infimp: #852323;  
 /***switcheroo**/;
---slide: llinear-gradient(#322e2d,#a38380,#322e2d);
+--slide: linear-gradient(#322e2d,#a38380,#322e2d);
  --slider:#8a8080;
 --switchtxt: #c0aaac;
  --color-text: #6e4331;
