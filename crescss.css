@@ -113,11 +113,11 @@ line-height: 1em;}
 
 
 .nomstaff {font-size: 9px; text-transform: uppercase; letter-spacing: 1px; padding: 2px; width: 50px !important;
-background-color: #121111; box-shadow: 0 0 1px #201f1f, 0 0 7px #141313 inset; color:#aa9d7e!important; font-style: italic; display: inline-block; font-weight: 700;}
+background-color: #121111; box-shadow: 0 0 1px #201f1f, 0 0 7px #141313 inset; color:#802d2d!important; font-style: italic; display: inline-block; font-weight: 700;}
 
 
 .nomstaff1 {font-size: 9px; text-transform: uppercase; letter-spacing: 1px; padding: 2px; width: 111px !important;
-background-color: #121111; box-shadow: 0 0 1px #201f1f, 0 0 7px #141313 inset; color:#aa9d7e !important; display: inline-block; font-weight: 700; font-style: italic;}
+background-color: #121111; box-shadow: 0 0 1px #201f1f, 0 0 7px #141313 inset; color:#802d2d !important; display: inline-block; font-weight: 700; font-style: italic;}
 .imgScenarpa3{width: 111px; height: 43px; object-fit: cover; float: none; opacity: .8; background: var(--fondb); border: 1px solid #54573b;padding: 1px;
 -webkit-filter: blur(0px) saturate(1.6) contrast(1.6) invert(0.1) sepia(0) grayscale(1) brightness(0.9) hue-rotate(0deg);}
 /******************** ajout qeel****************/
